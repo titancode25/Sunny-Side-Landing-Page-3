@@ -1,0 +1,249 @@
+html{
+    font-size: 95%;
+}
+
+/* ----------------------- Home Section-------------------------------- */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 94vw;
+    height: 40vh;
+    align-self: center;
+    background-color: white;
+    visibility:hidden;
+}
+
+nav ul li{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+nav ul li a{
+    color: hsl(213, 9%, 39%);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav .menu-burger{
+    display: block;
+    height: 28px;
+    width: 32px;
+    position: absolute;
+    right: 0;
+    margin: 1.8rem 2.4rem;
+}
+
+.home-body h1{
+    padding: 25% 10%;
+    margin: 0;
+    font-size: 3rem;
+}
+
+@media all and (max-width: 710px) {
+    .html{
+        font-size: 92%;
+    }
+    .home-body h1{
+        padding: 30% 10%;
+
+    }
+}
+
+@media all and (max-width: 600px){
+    .box-txt p{
+        line-height: 2vh;
+    }
+
+    .client-bx-w{
+        padding-top: 70px;
+    }
+
+    .service #bx1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    
+    .service #bx2{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .box img{
+        width: 100%;
+    }
+
+    .box-txt{
+        width: 100%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .box-txt h1{
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .box-txt p{
+        font-size: 20px;
+        line-height: 29px;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .box-txt h4{
+        font-size: 3.6vh;
+        text-align: center;
+    }
+
+    .project{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .project .project-bx{
+        width: 100%;
+    }
+
+    .project-tx{
+        margin-top: -33%;
+        margin-bottom: 0%;
+    }
+
+    .margin-pr{
+        margin-bottom: 5%;
+    }
+
+    .margin-pr-2{
+        margin-top: -34%;
+    }
+    .project-bx h1{
+        font-size: 9vw;
+    }
+
+    .project-bx p{
+        font-size: 3vw;
+    }
+
+    .footer-bx img{
+        width: 50%;
+        height: 230px;
+    }
+}
+
+@media all and (max-width: 800px){
+    /* .box-txt p{
+        line-height: 29px;
+        font-size: 20px;
+    } */
+}
+
+@media all and (max-width: 500px){
+    .Home{
+        background: url("../images/mobile/image-header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home-body h1{
+        padding: 40% 10%;
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    .menu-burger{
+        height: 16px;
+        width: 20px;
+    }
+
+    /* .service #bx1{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+    
+    .service #bx2{
+        display: flex;
+        /* flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .box img{
+        width: 100%;
+    }
+
+    .box-txt{
+        width: 100%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .box-txt h1{
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .box-txt p{
+        font-size: 5vw;
+        line-height: 4vh;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .box-txt h4{
+        font-size: 3.6vh;
+        text-align: center;
+    }
+
+    .project{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .project .project-bx{
+        width: 100%;
+    }
+
+    .project-tx{
+        margin-top: -33%;
+        margin-bottom: 0%;
+    }
+
+    .margin-pr{
+        margin-bottom: 5%;
+    }
+
+    .margin-pr-2{
+        margin-top: -34%;
+    }
+    .project-bx h1{
+        font-size: 9vw;
+    }
+
+    .project-bx p{
+        font-size: 3vw;
+    } */
+    .footer-bx img{
+        width: 50%;
+        height: 190px;
+    }
+
+}

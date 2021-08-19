@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;0,800;0,900;1,700&family=Fraunces:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --softred:  hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --pgray: hsl(213, 9%, 39%);
+    --hcolor: hsl(212, 27%, 19%);
+    --projectc1: hsl(168, 34%, 41%);
+    --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+    --Verydarkgrayishblue: hsl(213, 9%, 39%);
+    --Darkgrayishblue: hsl(232, 10%, 55%);
+    --Darkdesaturatedcyan: hsl(167, 40%, 24%);
+    --Grayishblue: hsl(210, 4%, 67%);
+    --Darkblue: hsl(198, 62%, 26%);
+
+}
+
+html{
+    font-size: 100%;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', 'Fraunces', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------Home Section ------------------------------------------ */
+
+.Home{
+    height: 100vh;
+    background: url("../images/desktop/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav h1{
+    margin: 1.4rem 2.4rem;
+    font-size: 2.6rem;
+    font-family: 'Barlow';
+    font-weight: 700;
+    color: white;
+}
+
+.menu-burger{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    margin: 1.8rem 2.7rem;
+    /* border: 2px solid black; */
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 8px 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 22px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+.home-body{
+    font-family: 'Fraunces';
+}
+
+.home-body h1{
+    text-align: center;
+    color: white;
+    margin: 7% 4%;
+    font-size: 3.5rem;
+    padding: 0;
+}
+
+/* -------------------------------x----- Home Section -----x----------------------------------- */
+
+
+
+
+
+/* ---------------------------------------Service Seciton-------------------------------------- */
+
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service .box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.box-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+.box-txt h1{
+    font-family: 'Fraunces';
+    font-size: 2.9vw;
+    margin: 0;
+    font-weight: 900;
+    color: var(--hcolor);
+}
+
+.box-txt p{
+    font-family: 'Barlow';
+    font-size: 1.3vw;
+    line-height: 3.4vh;
+    color: var(--Darkgrayishblue);
+    font-weight: 400;
+    padding: 0;
+    margin: 14px 0px;
+}
+
+.box-txt h4{
+    margin: 0;
+    font-family: 'Fraunces';
+    font-size: 1.5vw;
+    color: var(--hcolor);
+}
+
+.box img{
+    width: 50%;
+}
+
+.box-txt #h4-1{
+    border-bottom: yellow;
+}
+.box-txt #h4-2{
+    border-bottom: red;
+}
+
+
+
+
+
+
+
+/* -----------------------------x----- Service Section -----x-------------------------------- */
+
+
+
+
+
+/* ----------------------------------- Project Section ----------------------------------------- */
+
+.project{
+    display: flex;
+}
+
+.project .project-bx{
+    width: 50%;
+}
+
+.project-bx img{
+    width: 100%;
+}
+
+.project-tx{
+    width: 100%;
+    margin-top: -30%;
+    display: flex;
+    margin-bottom: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-bx h1{
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Fraunces';
+    margin: 0;
+}
+
+.project-bx .pr-color1{
+    color: var(--Darkdesaturatedcyan);
+}
+
+.project-bx .pr-color2{
+    color: var(--Darkblue);
+}
+
+.project-bx p{
+    text-align: center;
+    width: 55%;
+    align-self: center;
+    font-weight: 400;
+    font-size: 1.4vw;
+}
+
+
+
+/* ------------------------------------x----- Project Section -----x--------------------------------------------- */
+
+
+
+
+
+/* --------------------------------------------- Testimonals Section --------------------------------------------- */
+
+.testimonals{
+    /* height: 100vh; */
+    margin-top: 75px;
+    margin-bottom: 105px;
+}
+
+.testimonals h1{
+    text-align: center;
+    font-family: 'Fraunces';
+    color: var(--Grayishblue);
+    font-size: 2rem;
+    letter-spacing: 0.6vw;
+}
+
+.testi-bx{
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.testi-bx .client-box{
+    width: 20rem;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+}
+
+.client-box .img-testi-box{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+.client-box img{
+    border-radius: 50%;
+    margin: 20px 37.5%;
+    right: 50%;
+    height: 5rem;
+}
+
+.client-box p{
+    width: 95%;
+    align-self: center;
+    text-align: center;
+    font-family: 'Barlow';
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--Darkgrayishblue);
+    /* left: 20%; */
+    margin-left: 3%;
+}
+
+.client-box h3{
+    text-align: center;
+    font-family: 'Fraunces';
+    color: var(--hcolor);
+    font-size: 22px;
+    margin: 0;
+    padding-top: 22px;
+}
+
+.client-box h6{
+    color: var(--Grayishblue);
+    margin: 0;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+
+/* ------------------------x----- Testiomonals Section -----x------------------------------------- */
+
+
+
+
+/* --------------------------------- Footer-Img-------------------------------------- */
+
+.footer-img{
+    font-family: 'Barlow';
+}
+
+.footer-bx{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.footer-bx img{
+    width: 25%;
+}
+
+
+
+footer{
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+
+.footer-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-txt h1{
+    margin: auto;
+    padding: 40px 0px 0px 0px;
+    color: var(--projectc1);
+}
+
+.footer-txt ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    padding: 22px 0px 0px 0px ;
+}
+
+.footer-txt ul li{
+    list-style: none;
+    margin: 0px 16px;
+}
+
+.footer-txt ul li a{
+    text-decoration: none;
+    color: var(--projectc1);
+    font-weight: bold;
+}
+
+.social-icons{
+    margin: 50px auto ;
+}
+
+.social-icons img{
+    margin: 0px 12px;
+}
